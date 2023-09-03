@@ -1,0 +1,73 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  user-select: none;
+}
+
+:root {
+  --background-color: #282846;
+  --board-color: rgba(248, 248, 248, 0.79);
+  --snake-color: #fed049;
+  --food-color: rgba(248, 31, 31, 0.78);
+
+  --dpad-radius: 17%;
+  --dpad-radius-in: 20%;
+  --dpad-fg: #ddd;
+  --dpad-fg-hover: #eee;
+  --dpad-bg: #fff;
+  --arrowcolor: #aaa;
+  --tri-sml-a: 13px;
+  --tri-sml-b: 19px;
+  --tri-lrg-a: 13px;
+  --tri-lrg-b: 19px;
+  --dpad-arrow-shift: 5px;
+  --dpad-arrow-move: 35%;
+}
+
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  background-image: url("assets/images/bg2.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  font-family: 'Anton', sans-serif;
+}
+
+
+.snake {
+  /*background-image: url("assets/snakeBody.jpg");*/
+  /*background-size: 600%;*/
+  /*background-repeat: no-repeat;*/
+  /*background-position: center;*/
+  /*border: 1px solid black;*/
+  background: linear-gradient(270deg, rgba(101, 156, 73, 1) 50%, rgba(89, 136, 66, 1) 50%);
+  transition: all 1s ease-in;
+  border-radius: 50%;
+}
+
+.head {
+  background-color: transparent;
+  background-image: url("assets/images/snakeHeadr.png");
+  background-size: 140%;
+  background-repeat: no-repeat;
+  background-position: center;
+  border: none;
+}
+
+.food {
+  border-radius: 50%;
+  background-image: url("assets/images/Apple.png");
+  background-size: 105%;
+
+}
+
+.obstacle {
+  background-image: url("assets/images/gvn.png");
+  background-size: 100%;
+
+}
+
+

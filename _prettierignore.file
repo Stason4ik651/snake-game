@@ -1,0 +1,10 @@
+.angular
+.vscode
+tmp/
+node_modules
+.idea
+scully.log
+dist
+.scully
+src/assets/*
+src/app/api/*
